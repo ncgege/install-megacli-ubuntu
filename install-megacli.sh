@@ -5,3 +5,5 @@ wget https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controll
 mkdir ~/MegaCLI   &&  unzip -d ~/MegaCLI  ~/8-07-06_MegaCLI.zip
 alien  -k --scripts ~/MegaCLI/Linux/MegaCli-8.07.06-1.noarch.rpm
 dpkg -i ./megacli_8.07.06-1_all.deb
+ln /opt/MegaRAID/MegaCli/MegaCli64 /usr/local/bin/MegaCli
+ ln /opt/MegaRAID/MegaCli/MegaCli64 /usr/local/bin/MegaCli64
